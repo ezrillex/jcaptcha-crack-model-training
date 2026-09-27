@@ -1,1 +1,15 @@
-training.tfrecords
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Training data, intermediate checkpoints, and generated artifacts
+captchas/
+checkpoints/
+label_files/
+old set/
+*.tfrecords
+*.7z
+*.7z.*
+*.log
+*.jar
